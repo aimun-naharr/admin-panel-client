@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
-        <Route path='user'>
+        <Route path='users'>
         <Route index element={<List/>}></Route>
         <Route path=":userId" element={<Single/>}></Route>
         <Route path="new" element={<New/>}></Route>
