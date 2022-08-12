@@ -4,13 +4,13 @@ import {
   AreaChart,
   Area,
   XAxis,
-  YAxis,
+ 
   CartesianGrid,
   Tooltip,
-  ResponsiveContainer,
+ 
 } from "recharts";
 
-const Chart = () => {
+const Chart = ({title}) => {
   const data = [
     { name: "January", Total: 1200 },
     { name: "February", Total: 1100 },
@@ -22,7 +22,7 @@ const Chart = () => {
   return (
     <div className="chart">
       <div className="chartContent">
-        <h1 className="title">Last 6 months (revenue)</h1>
+        <h1 className="title">{title}</h1>
         <AreaChart
           width={730}
           height={250}

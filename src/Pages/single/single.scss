@@ -1,7 +1,89 @@
-.single{
-    display: flex;
-    width: 100%;
-    .singleContainer{
-        flex: 6;
+.single {
+  display: flex;
+  width: 100%;
+  margin: 20px 5px;
+  justify-content: center;
+ 
+  .singleContainer {
+    flex: 6;
+    .top {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      
+      gap: 20px;
+      .left {
+        flex: 1;
+        box-shadow: 6px 5px 5px 0px rgba(148, 132, 132, 0.75);
+        -webkit-box-shadow: 6px 5px 5px 0px rgba(148, 132, 132, 0.75);
+        -moz-box-shadow: 6px 5px 5px 0px rgba(148, 132, 132, 0.75);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+.title{
+  font-size: 18px;
+  color: gray;
+}
+        .editButton{
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 5px;
+            font-size: 12px;
+            color: #7451f8;
+            background-color: #7551f82f;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px;
+            box-shadow: inset;
+        }
+        .item{
+            display: flex;
+            gap: 20px;
+           
+.details{
+    .itemTitle{
+        margin: 0;
+        margin-bottom: 10px;
+        color: rgb(60, 58, 58);
     }
+    .detailItem{
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .itemKey{
+        font-weight: bold;
+        color: rgb(84, 82, 82);
+        margin-right: 5px;
+        font-weight: 300;
+    }
+    .itemValue{
+      font-weight: bold;
+      color: gray;
+    }
+
+}
+            .itemImg{
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                object-fit: cover;
+
+            }
+        }
+      }
+      .right {
+        flex: 2;
+      }
+    }
+    .bottom{
+      box-shadow: 6px 5px 5px 0px rgba(148, 132, 132, 0.75);
+          -webkit-box-shadow: 6px 5px 5px 0px rgba(148, 132, 132, 0.75);
+          -moz-box-shadow: 6px 5px 5px 0px rgba(148, 132, 132, 0.75);
+          padding: 20px;
+          margin: 20px;
+    }
+  }
+  
 }

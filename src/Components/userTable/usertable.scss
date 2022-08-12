@@ -2,6 +2,24 @@
     height: 100vh;
     padding: 20px;
 
+    .userTableTitle{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: gray;
+        .link{
+            color: green;
+            font-size: 16px;
+            border: 1px solid green;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    }
     .cellWithImg{
         display: flex;
         align-items: center;
